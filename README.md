@@ -31,7 +31,7 @@ I was slightly confused about the data types, specifically converting timestamps
 ![LaunchOutcomes](https://user-images.githubusercontent.com/100488626/171944434-a5f2c330-db51-41bd-9a3d-8cc729a4c12d.png)
 ### What are two conclusions you can draw about the Outcomes based on Launch Date?
 1. Campaigns launched between April & July are the most successful with a 63%+ success rate, but these campaigns also face the most competiton
-2. While it is reccomended to adhere to the conclusion above and launch April-July, February and November have particulary good success rates considering their smaller sample size and nonideal launch dates.
+2. While it is reccomended to adhere to the conclusion above and launch April-July, February (62.8%) and November (61.4%) have particulary good success rates considering their smaller sample size and nonideal launch dates.
 
 ![GoalOutcomes](https://user-images.githubusercontent.com/100488626/171944130-fc476381-7c59-4cb5-a3c9-2f91c979755f.png)
 ### What can you conclude about the Outcomes based on Goals?
