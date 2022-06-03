@@ -1,9 +1,14 @@
-# Kickstarter_Analysis
-# Kickstarting with Excel
+# An Analysis of Kickstarter Theater Projects & Campaigns
 
 ## Overview of Project
 
 ### Purpose
+A client has requested information and insights into understanding and implementing successful Kickstarter campigns. The purpose of this project was to analyze theater campaigns on Kickstater to find associations, corelations, and causations within the dataset to derive a set of guidelines for future project launches to ensure the highest success rate in reaching 100% or more of the fundraising goal.
+
+## Skills Used:
+- VLOOKUP
+- COUNTIF
+- Pivot Tables
 
 ## Analysis and Challenges
 
