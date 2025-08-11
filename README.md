@@ -1,48 +1,37 @@
-# An Analysis of Kickstarter Projects & Campaigns
+# An Analysis of Theatrical Kickstarter Projects
 
-## Overview of Project
-A client has requested information and insights into understanding and implementing successful Kickstarter campigns. The purpose of this project was to analyze theater campaigns on Kickstater to find associations, corelations, and causations within the dataset to derive a set of guidelines for future project launches to ensure the highest success rate in reaching 100% or more of the fundraising goal.
+## OVERVIEW
+A client has an idea for a play and is launching a Kickstarter campaign to fund it. They request insights on how to maximize their efforts. The purpose of this project is to analyze theatrical campaigns on Kickstarter and derive guidelines that ensure the client will have the best chance to fund their project fully
 
-### Skills Used:
-- VLOOKUP
-- COUNTIF
-- Pivot tables 
-- Creating charts
+### LEARNED
+1. VLOOKUP
+2. COUNTIF
+3. Pivot tables
 
-## Analysis
-The analysis was done by using Pivot tables to create charts that displayed data-over-time in an easily digestible format
+## ANALYSIS
+*Used pivot tables to create charts that displayed data-over-time:
 
 Example:
 
 <img width="323" alt="PivotTable" src="https://user-images.githubusercontent.com/100488626/171947507-2ccb1072-e034-428b-a1cb-c7693efa6292.png">
 
-It was necessary to use COUNTIFS functions to calculate the goal based outcomes, and this enabled me to get numeric counts from the original dataset that matched my specified criteria.
+*Used COUNTIFS functions to calculate all campaigns with funding goals from $30,000 to $34,999 that failed to get funded:
 
 Example:
 ```
 =COUNTIFS(Kickstarter!D:D,">=30000",Kickstarter!D:D,"<=34999",  Kickstarter!F:F, "=Failed",Kickstarter!R:R,"=Plays")
 ```
-*This function counts all plays with funding goals from $30,000 to $34,999 that failed to meet their goal*
+## CHARTS
 
-## Challenges
-I was slightly confused about the data types, specifically converting timestamps, and the amount of manipulation I needed to do before executing most calcualtions. Additionally, the COUNTIFS functions were the most difficult part to get working, and once I figured it out, it was tedious to fill in the rest.
-
-## Results
 ![LaunchOutcomes](https://user-images.githubusercontent.com/100488626/171944434-a5f2c330-db51-41bd-9a3d-8cc729a4c12d.png)
-### What are two conclusions you can draw about the Outcomes based on Launch Date?
-1. Campaigns launched between April & July are the most successful with a 63%+ success rate, but these campaigns also face the most competiton
-2. While it is reccomended to adhere to the conclusion above and launch April-July, February (62.8%) and November (61.4%) have particulary good success rates considering their smaller sample size and nonideal launch dates.
-
 ![GoalOutcomes](https://user-images.githubusercontent.com/100488626/171944130-fc476381-7c59-4cb5-a3c9-2f91c979755f.png)
-### What can you conclude about the Outcomes based on Goals?
-1. It is easier to successfully fund small campaigns, and once the goal is over $20,000, it becomes less likely to meet its goal.
 
-### What are some limitations of this dataset?
-To better help the client more information would be needed, such as:
-1. The methods/mediums used to promote each campaign 
-2. How much each campign met or missed its goal by
-3. Data on the listing/landing page including photos, video clips, copywrite, and other design aspects critical to appeal
+## CONCLUSIONS
 
-### What are some other possible tables and/or graphs that we could create?
-1. Comparisons between country
-2. Comparisons between different cateogries (theater, technology, food, games, etc.)
+### - Launch between April & August 
+
+## ADDITIONAL DATA NEEDED
+
+### - The design of the individual campaign landing pages and media attachments
+### - Play genre and marketing efforts run by each campaign
+### - The dollar amount by which each failed campaign missed its funding target
